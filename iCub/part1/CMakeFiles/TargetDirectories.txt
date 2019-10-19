@@ -1,0 +1,3 @@
+/home/user/iCub/part1/CMakeFiles/rebuild_cache.dir
+/home/user/iCub/part1/CMakeFiles/edit_cache.dir
+/home/user/iCub/part1/CMakeFiles/IRCW1.dir

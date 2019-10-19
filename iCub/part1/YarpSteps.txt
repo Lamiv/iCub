@@ -1,0 +1,18 @@
+Open a view to see the Robot Cam
+	yarpview --name /lap/out/cam/left
+Connect it 
+
+	yarp connect /icubSim/cam/left /lap/out/cam/left
+
+Add webcam to the Yarp
+
+	yarpdev --device opencv_grabber --name /lap/in/webcam
+
+Connect webcam to texture screen
+	yarp connect /lap/in/webcam /icubSim/texture/screen
+
+Make a new view for the output from program
+	yarpview --name /lap/out/view2
+
+Execute the Linear filter 
+	./IRCW1 from icub/part1
