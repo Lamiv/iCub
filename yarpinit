@@ -1,0 +1,2 @@
+echo "initializing yarpserver"
+gnome-terminal  --geometry=260x25-0+0 --tab -e "yarpserver" --tab -e "iCub_SIM"

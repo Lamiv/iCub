@@ -1,0 +1,2 @@
+echo "initializing ports and views"
+gnome-terminal  --geometry=260x25-0+0 --tab -e "iKinGazeCtrl --from configSim.ini" --tab  -e "yarpdev --device opencv_grabber --name /lap/in/webcam" --tab  -e "yarpview --name /lap/out/robotlefteye" --tab  -e "yarpview --name /lap/view/lfilter" --tab  -e "yarpview --name /lap/view/odetect"

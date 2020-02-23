@@ -1,0 +1,3 @@
+/home/user/iCub/part2/CMakeFiles/edit_cache.dir
+/home/user/iCub/part2/CMakeFiles/rebuild_cache.dir
+/home/user/iCub/part2/CMakeFiles/gaze.dir
